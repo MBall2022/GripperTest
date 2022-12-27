@@ -207,7 +207,7 @@ scene.add( light3 );
 var loader = new THREE.TextureLoader();
 loader.setCrossOrigin("anonymous");
 const texture = loader.load(
-  './pics/tileFloor.jpeg');
+  'https://github.com/MBall2022/GripperTest/blob/99ea76bf2ee628c080b30c93b373c8abb3d4a0fb/pics/tileFloor.jpeg');
 
   var Fmaterial = new THREE.MeshPhongMaterial({ color:0xFFFFFF, map: texture });
   texture.wrapS = THREE.RepeatWrapping;
