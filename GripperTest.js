@@ -207,7 +207,7 @@ scene.add( light3 );
 var loader = new THREE.TextureLoader();
 loader.setCrossOrigin("anonymous");
 const texture = loader.load(
-  'pics/tileFloor.jpeg');
+  'assets/tileFloor.jpeg');
 
   var Fmaterial = new THREE.MeshPhongMaterial({ color:0xFFFFFF, map: texture });
   texture.wrapS = THREE.RepeatWrapping;
